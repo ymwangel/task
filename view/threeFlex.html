@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小薇学院——任务三：三栏式布局:Flex布局</title>
+    <style>
+        #container{
+            display: flex;
+            padding: 20px;
+            background-color: #eee;
+            border: 1px solid #999;
+            box-sizing:content-box;
+            align-items: flex-start;
+        }
+        #left{
+            width: 200px;
+            background-color: white;
+        }
+        table{
+            height: 80px;
+            width: 80px;
+            margin: 20px;
+        }
+        .logo{
+            background-color: #eee;
+            text-align: center;
+            vertical-align: middle;
+        }
+        #middle{
+            margin:0 20px;
+            padding:0 10px;
+            text-indent: 2em;
+            font-size: 12px;
+            background-color: white;
+            border: 1px solid red;
+        }
+        #right{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="left">
+        <table>
+            <tr>
+                <td class="logo">
+                    <span>团队logo</span>
+                    <span>80x80</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="middle">
+        <p>关于我们团队的介绍</p>
+        <p>团队名称：我就是我。团队成员：我自己，哈哈</p><p></p>
+        <p>百度WEB前端学院（Baidu Institute of Front-End Technology，简称FE）
+            时一个由百度人力资源部校园招聘组、百度FE团队联合出品的、面向在校大学生
+            以及对前端技术有兴趣的前端在线学习平台。我们希望能够借助百度大量优秀的
+            前端工程师以及丰富的前端知识积累，帮助人们更加有趣、高效、系统地学习web前端技术。
+        </p>
+        <p>百度WEB前端学院（Baidu Institute of Front-End Technology，简称FE）
+            时一个由百度人力资源部校园招聘组、百度FE团队联合出品的、面向在校大学生
+            以及对前端技术有兴趣的前端在线学习平台。我们希望能够借助百度大量优秀的
+            前端工程师以及丰富的前端知识积累，帮助人们更加有趣、高效、系统地学习web前端技术。
+        </p>
+        <p>百度WEB前端学院（Baidu Institute of Front-End Technology，简称FE）
+            时一个由百度人力资源部校园招聘组、百度FE团队联合出品的、面向在校大学生
+            以及对前端技术有兴趣的前端在线学习平台。我们希望能够借助百度大量优秀的
+            前端工程师以及丰富的前端知识积累，帮助人们更加有趣、高效、系统地学习web前端技术。
+        </p>
+        <p>百度WEB前端学院（Baidu Institute of Front-End Technology，简称FE）
+            时一个由百度人力资源部校园招聘组、百度FE团队联合出品的、面向在校大学生
+            以及对前端技术有兴趣的前端在线学习平台。我们希望能够借助百度大量优秀的
+            前端工程师以及丰富的前端知识积累，帮助人们更加有趣、高效、系统地学习web前端技术。
+        </p>
+        <p>百度WEB前端学院（Baidu Institute of Front-End Technology，简称FE）
+            时一个由百度人力资源部校园招聘组、百度FE团队联合出品的、面向在校大学生
+            以及对前端技术有兴趣的前端在线学习平台。我们希望能够借助百度大量优秀的
+            前端工程师以及丰富的前端知识积累，帮助人们更加有趣、高效、系统地学习web前端技术。
+        </p>
+        <p>百度WEB前端学院（Baidu Institute of Front-End Technology，简称FE）
+            时一个由百度人力资源部校园招聘组、百度FE团队联合出品的、面向在校大学生
+            以及对前端技术有兴趣的前端在线学习平台。我们希望能够借助百度大量优秀的
+            前端工程师以及丰富的前端知识积累，帮助人们更加有趣、高效、系统地学习web前端技术。
+        </p>
+        <p>百度WEB前端学院（Baidu Institute of Front-End Technology，简称FE）
+            时一个由百度人力资源部校园招聘组、百度FE团队联合出品的、面向在校大学生
+            以及对前端技术有兴趣的前端在线学习平台。我们希望能够借助百度大量优秀的
+            前端工程师以及丰富的前端知识积累，帮助人们更加有趣、高效、系统地学习web前端技术。
+        </p>
+        <p>百度WEB前端学院（Baidu Institute of Front-End Technology，简称FE）
+            时一个由百度人力资源部校园招聘组、百度FE团队联合出品的、面向在校大学生
+            以及对前端技术有兴趣的前端在线学习平台。我们希望能够借助百度大量优秀的
+            前端工程师以及丰富的前端知识积累，帮助人们更加有趣、高效、系统地学习web前端技术。
+        </p>
+    </div>
+    <div id="right">
+        <table>
+            <tr>
+                <td class="logo">
+                    <span>团队logo</span>
+                    <span>80x80</span>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td class="logo">
+                    <span>团队logo</span>
+                    <span>80x80</span>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td class="logo">
+                    <span>团队logo</span>
+                    <span>80x80</span>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td class="logo">
+                    <span>团队logo</span>
+                    <span>80x80</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
