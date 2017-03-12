@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小薇学院--任务四：定位和居中问题:Flex布局</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            height: 100%;
+        }
+        #box{
+            width: 400px;
+            height: 200px;
+            background-color: #ccc;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -100px;
+            margin-left: -200px;
+        }
+        .square{
+            width: 50px;
+            height: 50px;
+            background-color: #fc0;
+        }
+        .sector{
+            border-radius: 100px 0 0;
+        }
+        .shanxing1{
+            position: absolute;
+            top: 150px;
+            left: 350px;
+        }
+        .shanxing2{
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <div class="square sector shanxing1"></div>
+    <div class="square sector shanxing2"></div>
+</div>
+</body>
+</html>
