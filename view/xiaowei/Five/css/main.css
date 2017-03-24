@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0;
+    font-family:"Microsoft Yahei";
+}
+body {
+    background-color: #eee;
+    padding: 20px;
+}
+.navbar{
+    float: right;
+    width: 330px;
+    border-right: 2px solid grey;
+    background-color: white;
+    padding: 20px;
+}
+.navbar header{
+    font-weight: bold;
+    border-left: 4px solid grey;
+    padding: 10px 20px;
+}
+.item{
+    padding: 10px;
+}
+.item label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.item p{
+    margin-left: 113px;
+    margin-top: 10px;
+}
+.item .optionItem{
+   display: inline;
+}
+.item .submit {
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;;
+}
+
+#content{
+    border-right: 2px solid #eee;
+    margin-right: 390px;
+}
+.paper{
+    background-color: white;
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
+    padding: 30px 20px 20px 20px;
+    margin-bottom: 20px;
+}
+.paper section{
+    text-indent: 2em;
+}
+.pictures{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.pictures .graph{
+    border: 1px solid grey;
+    padding: 10px;
+
+}
+.pictures p{
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.pictures img{
+    width: 90px;
+    height: 80px;
+}
+.paper ol{
+    margin:20px 0 0 40px;
+    font-weight: bold;
+}
+.paper table{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+.paper table th{
+    border: 1px solid red;
+    background-color: grey;
+}
+.paper table td{
+    border: 1px solid red;
+    min-width: 200px;
+}
